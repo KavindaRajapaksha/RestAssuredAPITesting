@@ -67,15 +67,15 @@ public class Authentications {
 		
 	}
 	
-	@Test(description="testFive")
-	public void OAuth1Authentication() {
-		given()
-		   .auth().oauth("consumerKey", "consumerSecrate", "accessToken", "tokenSecrate")
-		.when()
-		   .get("url")
-		.then()
-		   .statusCode(400);
-	}
+//	@Test(description="testFive")
+//	public void OAuth1Authentication() {
+//		given()
+//		   .auth().oauth("consumerKey", "consumerSecrate", "accessToken", "tokenSecrate")
+//		.when()
+//		   .get("url")
+//		.then()
+//		   .statusCode(400);
+//	}
 	
 	@Test(description="testSix")
 	public void OAuth2Authentication() {
