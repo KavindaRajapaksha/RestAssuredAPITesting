@@ -57,6 +57,12 @@
     <version>20210307</version> <!-- You can use the latest version -->
 </dependency>
 
+<dependency>
+    <groupId>com.github.javafaker</groupId>
+    <artifactId>javafaker</artifactId>
+    <version>1.0.2</version>
+</dependency>
+
   </dependencies>
   
   
